@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/HttpLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/IHttpLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/MockHttpLib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/restaurants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/AllResturants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/OperatingHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Reviews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/latlng.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/HttpLib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/IHttpLib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/MessageGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/MockHttpLib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/restaurants.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,11 +95,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.JsonReader">
+    <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.JsonReader" />
+      <module name="COMP2005_MainAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Main" />
       <module name="COMP2005_MainAssignment" />
@@ -102,17 +130,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JsonReader" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620119395178</updated>
-      <workItem from="1620119400685" duration="5735000" />
+      <workItem from="1620119400685" duration="6405000" />
+      <workItem from="1620296008060" duration="8239000" />
     </task>
     <servers />
   </component>
@@ -139,5 +176,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/JsonReader.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
