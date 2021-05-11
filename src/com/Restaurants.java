@@ -15,7 +15,9 @@ public class Restaurants {
 
     // standard getters and setters
 
-    public String toString() {
+   public String toString() {
         return this.id+ " | " + this.name+ " | " + this.DOHMH_inspection_score+ " | " + this.neighborhood+ " | " + this.photograph+ " | " + this.address+ " | " + this.latlng+ " | " + this.cuisine_type+ " | " + this.operating_hours+ " | " + this.reviews;
     }
+
+
 }
