@@ -2,8 +2,12 @@ package com;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.jsonFormatVisitors.JsonArrayFormatVisitor;
+import com.fasterxml.jackson.databind.util.JSONPObject;
 
 
 public class JsonReader {
@@ -19,5 +23,6 @@ public class JsonReader {
             e.printStackTrace();
         }
     }
+
 
 }

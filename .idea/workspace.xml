@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="" />
+    <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Restaurantcuisine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurantcuisine.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,15 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,6 +146,7 @@
       <updated>1620119395178</updated>
       <workItem from="1620119400685" duration="6405000" />
       <workItem from="1620296008060" duration="11076000" />
+      <workItem from="1620655919958" duration="7107000" />
     </task>
     <servers />
   </component>
@@ -161,16 +164,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/JsonReader.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
