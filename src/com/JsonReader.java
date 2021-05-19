@@ -1,16 +1,8 @@
 package com;
 
 import java.io.IOException;
-import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Iterator;
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 
@@ -27,7 +19,7 @@ public class JsonReader {
          ObjectMapper mapper = new ObjectMapper();
         try {
             AllResturants usrPost = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), AllResturants.class);
-            Restaurantcuisine.filterrestaurants(usrPost);
+            //Restaurantcuisine.filterrestaurants(usrPost);
             System.out.println(usrPost);
         } catch (IOException e) {
             e.printStackTrace();
