@@ -2,5 +2,9 @@ package com;
 
 public class AllResturants {
 
-    public Restaurants[] restaurants;
+
+
+    public AllResturants(){ // default constructor
+
+    }
 }
