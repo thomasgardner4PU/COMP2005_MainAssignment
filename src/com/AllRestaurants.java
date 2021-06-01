@@ -1,6 +1,6 @@
 package com;
 
-public class AllResturants {
+public class AllRestaurants {
 
     public Restaurants[] restaurants;
 }
