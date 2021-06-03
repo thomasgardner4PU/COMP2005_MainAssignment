@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/JsonReaderMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DayHour.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1s46DQB2wOyLawstfeMgp4VH3oU" />
   <component name="ProjectView">
@@ -154,7 +159,7 @@
       <workItem from="1621727705538" duration="7803000" />
       <workItem from="1621951138788" duration="708000" />
       <workItem from="1621976204879" duration="2039000" />
-      <workItem from="1622581466152" duration="14264000" />
+      <workItem from="1622581466152" duration="14332000" />
     </task>
     <servers />
   </component>
