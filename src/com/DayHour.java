@@ -72,33 +72,32 @@ public class DayHour {
         Date date2 = date.parse(inputTime);
 
         // check comma first
-        if (timesofday.indexOf(',') != -1) {
+
+        if (timesofday.matches("Closed")) {
+            return false;
+        }
+
+        else if (timesofday.matches("Open 24 hours")) {
+            return true;
+        }
+        
+        else {
+
             String[] splitingcomma = timesofday.split(", ");
 
-            String[] splitString1 = splitingcomma[0].split(" - ");
-            String[] splitString2 = splitingcomma[1].split(" - ");
+            for (int i = 0; i < splitingcomma.length; i++) {
+                String[] splitdash = splitingcomma[i].split(" - ");
 
-            Date var3 = date.parse(splitString1[0]);
-            Date var4 = date.parse(splitString1[1]);
-            Date var5 = date.parse(splitString2[0]);
-            Date var6 = date.parse(splitString2[1]);
-            if (date2.after(var3) && date2.before(var4) && date2.after(var5) && date2.after(var6)) {
-                return true;
+                Date open = date.parse(splitdash[0]);
+                Date closing = date.parse(splitdash[1]);
+
+                if (date2.after(open) && date2.before(closing)) {
+                    return true;
+                }
             }
-        } else {
 
-            String[] splitString = timesofday.split(" - ");
-            Date var1 = date.parse(splitString[0]);
-            Date var2 = date.parse(splitString[1]);
 
-            if (date2.after(var1) && date2.before(var2)) {
-                //checkes whether the current time is between var1 and var2.
-                return true;
-            }
         }
         return false;
-
-
     }
-
 }
