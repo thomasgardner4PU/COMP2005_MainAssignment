@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/AllResturants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AllRestaurants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DayHour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,7 +149,7 @@
       <workItem from="1621727705538" duration="7803000" />
       <workItem from="1621951138788" duration="708000" />
       <workItem from="1621976204879" duration="2039000" />
-      <workItem from="1622581466152" duration="1425000" />
+      <workItem from="1622581466152" duration="2122000" />
     </task>
     <servers />
   </component>
