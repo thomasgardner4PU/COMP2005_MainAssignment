@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/JsonReaderMock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DayHour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,9 +91,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.16471839" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Application.JsonReader">
@@ -153,7 +154,7 @@
       <workItem from="1621727705538" duration="7803000" />
       <workItem from="1621951138788" duration="708000" />
       <workItem from="1621976204879" duration="2039000" />
-      <workItem from="1622581466152" duration="9846000" />
+      <workItem from="1622581466152" duration="14264000" />
     </task>
     <servers />
   </component>

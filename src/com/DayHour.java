@@ -80,7 +80,11 @@ public class DayHour {
         else if (timesofday.matches("Open 24 hours")) {
             return true;
         }
-        
+
+        else if (timesofday.matches("- Sat")){
+            return true;
+        }
+
         else {
 
             String[] splitingcomma = timesofday.split(", ");
