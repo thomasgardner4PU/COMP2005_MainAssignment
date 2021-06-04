@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/Requirement1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Requirement2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Requirement3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Requirement4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/JsonReaderMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/JsonReaderMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +108,12 @@
     <property name="project.structure.side.proportion" value="0.16471839" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.JsonReader">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC03\Documents\GitHub\COMP2005_MainAssignment\Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JsonReaderMock">
     <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JsonReader" />
       <module name="COMP2005_MainAssignment" />
@@ -111,6 +123,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonReaderMock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JsonReaderMock" />
+      <module name="COMP2005_MainAssignment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,19 +144,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonReaderMock" />
         <item itemvalue="Application.JsonReader" />
         <item itemvalue="Application.Main" />
       </list>
@@ -160,6 +182,7 @@
       <workItem from="1621951138788" duration="708000" />
       <workItem from="1621976204879" duration="2039000" />
       <workItem from="1622581466152" duration="14332000" />
+      <workItem from="1622770588057" duration="2420000" />
     </task>
     <servers />
   </component>
@@ -177,5 +200,20 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/JsonReaderMock.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/Requirement1Test.java</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
