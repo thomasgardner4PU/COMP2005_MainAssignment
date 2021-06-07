@@ -2,25 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/Requirement1Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Requirement2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Requirement3Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/Requirement4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/IntergrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/DayHourTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/com/ReviewRatingsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/JsonReaderMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/JsonReaderMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Requirement1Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Cuisineneighbourhood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Cuisineneighbourhood.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/JsonReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Restaurants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Restaurants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/JsonReaderMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/JsonReaderMock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DayHour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ReviewRatings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -103,17 +119,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16471839" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC03\Documents\GitHub\COMP2005_MainAssignment\Tests" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.JsonReaderMock">
+  <component name="RunManager" selected="Application.JsonReader">
     <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JsonReader" />
       <module name="COMP2005_MainAssignment" />
@@ -134,16 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.Main" />
-      <module name="COMP2005_MainAssignment" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -157,11 +171,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in COMP2005_MainAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2005_MainAssignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuisineneighbourhoodFunctionalTest.testCuisine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2005_MainAssignment" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CuisineneighbourhoodFunctionalTest" />
+      <option name="METHOD_NAME" value="testCuisine" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CuisineneighbourhoodUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2005_MainAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.CuisineneighbourhoodUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JsonReaderMock" />
         <item itemvalue="Application.JsonReader" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in COMP2005_MainAssignment" />
+        <item itemvalue="JUnit.CuisineneighbourhoodUnitTest" />
+        <item itemvalue="JUnit.CuisineneighbourhoodFunctionalTest.testCuisine" />
+        <item itemvalue="Application.JsonReaderMock" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +232,10 @@
       <workItem from="1621976204879" duration="2039000" />
       <workItem from="1622581466152" duration="14332000" />
       <workItem from="1622770588057" duration="2420000" />
+      <workItem from="1623050298673" duration="3510000" />
+      <workItem from="1623053857647" duration="3248000" />
+      <workItem from="1623066071850" duration="4688000" />
+      <workItem from="1623070824714" duration="1363000" />
     </task>
     <servers />
   </component>
@@ -205,15 +258,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/JsonReaderMock.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/Requirement1Test.java</url>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COMP2005_MainAssignment$All_in_COMP2005_MainAssignment.ic" NAME="All in COMP2005_MainAssignment Coverage Results" MODIFIED="1623070727649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

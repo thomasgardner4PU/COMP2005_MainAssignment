@@ -1,35 +1,26 @@
 package com;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Cuisineneighbourhood {
 
 
 
-    static public Restaurants[] Filter(AllRestaurants RestaurantsList) {
+    static public Restaurants[] Filter(String Cuisine, String Neighboorhood, AllRestaurants RestaurantsList) {
 
-        Restaurants[] newrestaurants = new Restaurants[RestaurantsList.restaurants.length];
-
-
-
-        System.out.println("Enter Cuisine: ");
-
-        Scanner scanner = new Scanner(System.in);
-        String inputCusineType = scanner.nextLine();
-
-        System.out.println("Enter Neighborhood: ");
-        String inputNeighborhood = scanner.nextLine();
+        List<Restaurants> filtered = new ArrayList<>();
 
         for (int i = 0; i < RestaurantsList.restaurants.length; i++) {
-            if (RestaurantsList.restaurants[i].cuisine_type.matches(inputCusineType)) {
+            if (RestaurantsList.restaurants[i].cuisine_type.matches(Cuisine)) {
 
-                if (RestaurantsList.restaurants[i].neighborhood.matches(inputNeighborhood)) {
-                    newrestaurants[i] = RestaurantsList.restaurants[i];
+                if (RestaurantsList.restaurants[i].neighborhood.matches(Neighboorhood)) {
+                    filtered.add(RestaurantsList.restaurants[i]);
                 }
             }
         }
 
-        return newrestaurants;
+        return filtered.toArray(new Restaurants[0]);
 
     }
 

@@ -1,29 +1,27 @@
 package com;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ReviewRatings {
 
-    static public Restaurants[] getRatings(AllRestaurants RatingsArray) {
-        Restaurants[] fetchratings = new Restaurants[RatingsArray.restaurants.length];
+    static public List<Restaurants> getRatings(int Rating, AllRestaurants RatingsArray) {
+        List<Restaurants> filteredReviews = new ArrayList<>();
 
 
-        System.out.println("Enter Rating: ");
 
-        Scanner scanner = new Scanner(System.in);
-        String inputRatingNumber = scanner.nextLine();
 
         for (int i = 0; i < RatingsArray.restaurants.length; i++) {
             float test = 0;
-            for (int n = 0; n < RatingsArray.restaurants[i].reviews.length; n++) {
+            for (int n = 0; n < RatingsArray.restaurants[i].reviews.rating; n++) {
                 test += RatingsArray.restaurants[i].reviews[n].rating;
             }
-            float result = test/RatingsArray.restaurants[i].reviews.length;
+            float result = test/RatingsArray.restaurants[i].reviews.rating;
 
-            if (result > Float.parseFloat(inputRatingNumber)) {
-                fetchratings[i] = RatingsArray.restaurants[i];
+            if (result > Float.parseFloat(String.valueOf(Rating))) {
+                filteredReviews.set(i, RatingsArray.restaurants[i]);
             }
         }
-        return fetchratings;
+        return filteredReviews;
     }
 }
