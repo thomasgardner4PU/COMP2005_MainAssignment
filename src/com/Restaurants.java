@@ -12,6 +12,7 @@ public class Restaurants {
     public String cuisine_type;
     public OperatingHours operating_hours;
     public Reviews reviews;
+    public com.Reviews[] Reviews;
 
     // main constructor class
 

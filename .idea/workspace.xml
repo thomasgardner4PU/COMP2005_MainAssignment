@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/IntergrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/com/DayHourTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/com/ReviewRatingsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/COMP2005_MainAssignment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/JsonReaderMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/JsonReaderMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Requirement1Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Cuisineneighbourhood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Cuisineneighbourhood.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/DayHour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/JsonReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/JsonReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Restaurants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/COMP2005_MainAssignment/com/Restaurants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/JsonReaderMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/JsonReaderMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/DayHour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ReviewRatings.java" afterDir="false" />
@@ -235,7 +218,7 @@
       <workItem from="1623050298673" duration="3510000" />
       <workItem from="1623053857647" duration="3248000" />
       <workItem from="1623066071850" duration="4688000" />
-      <workItem from="1623070824714" duration="1363000" />
+      <workItem from="1623070824714" duration="2013000" />
     </task>
     <servers />
   </component>

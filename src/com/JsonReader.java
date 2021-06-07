@@ -68,7 +68,7 @@ public class JsonReader {
             Scanner scanner3 = new Scanner(System.in);
             String inputRatingNumber = scanner.nextLine();
 
-            Restaurants[] test3 = ReviewRatings.getRatings(restaurant);
+            Restaurants[] test3 = ReviewRatings.getRatings(inputRatingNumber, restaurant).toArray(new Restaurants[0]);
             String thirdsetofresults = "Results";
 
             Restaurants[] reviewResults = DayHour.getTime(inputDay, inputTime, restaurant);
