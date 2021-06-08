@@ -60,7 +60,7 @@ public class JsonReader {
         Restaurants[] DayHourResults = DayHour.getTime(inputDay, inputTime, restaurant);
 
             for (Restaurants r:
-                    test) {
+                    test2) {
                 System.out.println(r.operating_hours.Monday);
             }
 
@@ -77,7 +77,7 @@ public class JsonReader {
             Restaurants[] reviewResults = DayHour.getTime(inputDay, inputTime, restaurant);
 
             for (Restaurants r:
-                    test) {
+                    test3) {
                 System.out.println(r.reviews.rating);
             }
 
@@ -94,7 +94,7 @@ public class JsonReader {
             ArrayList<Restaurants> inspectionresults = InspectionScores.getInspectionScores("Brooklyn", inputNbhood, new AllRestaurants());
 
             for (Restaurants r:
-                    test) {
+                    test4) {
                 System.out.println(r.DOHMH_inspection_score);
             }
 
