@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/DayHourFunctionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/InspectionScoresFuntionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/ReviewRatingFuntionalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/DayHourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/DayHourUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/Cuisineneighbourhood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Hotelvicinity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/InspectionScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/InspectionScores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/ReviewRatings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +217,7 @@
       <workItem from="1623053857647" duration="3248000" />
       <workItem from="1623066071850" duration="4688000" />
       <workItem from="1623070824714" duration="11103000" />
-      <workItem from="1623158720167" duration="15783000" />
+      <workItem from="1623158720167" duration="17429000" />
     </task>
     <servers />
   </component>
