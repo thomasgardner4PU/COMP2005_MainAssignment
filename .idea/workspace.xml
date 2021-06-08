@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/DayHourFunctionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/InspectionScoresFuntionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/FunctionalTests/ReviewRatingFuntionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Requirement2Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Requirement3Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Requirement4Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/com/DayHourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/DayHourTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/com/ReviewRatingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/InspectionScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/InspectionScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/DayHourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/DayHourUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Cuisineneighbourhood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/Cuisineneighbourhood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Hotelvicinity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/InspectionScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/InspectionScores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ReviewRatings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/ReviewRatings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -150,15 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,7 +229,8 @@
       <workItem from="1623050298673" duration="3510000" />
       <workItem from="1623053857647" duration="3248000" />
       <workItem from="1623066071850" duration="4688000" />
-      <workItem from="1623070824714" duration="9512000" />
+      <workItem from="1623070824714" duration="11103000" />
+      <workItem from="1623158720167" duration="15783000" />
     </task>
     <servers />
   </component>
@@ -245,17 +248,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP2005_MainAssignment$All_in_COMP2005_MainAssignment.ic" NAME="All in COMP2005_MainAssignment Coverage Results" MODIFIED="1623070727649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

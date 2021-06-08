@@ -1,7 +1,7 @@
 package UnitTests;
 
 import com.AllRestaurants;
-import com.Cuisineneighbourhood;
+import com.Requirements.Cuisineneighbourhood;
 import com.Restaurants;
 import org.junit.jupiter.api.Test;
 
@@ -13,8 +13,8 @@ class CuisineneighbourhoodUnitTest {
 
     // performing unit test
     @Test
-    public void test1() {
-        Restaurants wrongCuisine = new Restaurants("Manhatten", "American");
+    public void CuisineNeighborhoodTests() {
+        Restaurants wrongCuisine = new Restaurants("Manhattan", "American");
         Restaurants wrongNeighborhod = new Restaurants("Brooklyn", "Asian");
         Restaurants correctRestaurant = new Restaurants("Manhattan", "Asian");
 

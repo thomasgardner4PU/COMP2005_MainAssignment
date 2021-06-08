@@ -1,7 +1,10 @@
 package com;
 
+import com.Requirements.Cuisineneighbourhood;
+import com.Requirements.DayHour;
+import com.Requirements.InspectionScores;
+import com.Requirements.ReviewRatings;
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
@@ -85,10 +88,10 @@ public class JsonReader {
             Scanner scanner4 = new Scanner(System.in);
             String inputNbhood = scanner.nextLine();
 
-            ArrayList<Restaurants> test4 = InspectionScores.getInspectionScores(inputNbhood, new AllRestaurants());
+            ArrayList<Restaurants> test4 = InspectionScores.getInspectionScores("Brooklyn", inputNbhood, new AllRestaurants());
             String fourthsetofresults = "Results";
 
-            ArrayList<Restaurants> inspectionresults = InspectionScores.getInspectionScores(inputNbhood, new AllRestaurants());
+            ArrayList<Restaurants> inspectionresults = InspectionScores.getInspectionScores("Brooklyn", inputNbhood, new AllRestaurants());
 
             for (Restaurants r:
                     test) {

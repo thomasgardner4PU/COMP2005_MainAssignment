@@ -1,7 +1,7 @@
 package FunctionalTests;
 
 import com.AllRestaurants;
-import com.Requirements.Cuisineneighbourhood;
+import com.Requirements.InspectionScores;
 import com.Restaurants;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,32 +12,27 @@ import java.net.URL;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CuisineneighbourhoodFunctionalTest {
-
-
+public class InspectionScoresFuntionalTest {
 
     private AllRestaurants restaurant;
 
-    // restaurant that im testing
-
     @BeforeEach
-    public void setUp() throws Exception {
+    public void setup() throws Exception {
         ObjectMapper mapper = new ObjectMapper();
 
         restaurant = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), AllRestaurants.class);
     }
 
-
-
     @Test
-    @DisplayName("Simple Test for restaurant of Type Cuisine and neighborhood")
-    public void testCuisineNeighborhood() {
-        Restaurants[] test = Cuisineneighbourhood.Filter("Asian", "Manhattan", restaurant);
+    @DisplayName("Simple test for all restaurants of specific inspection scores")
+    public void testInspectionScores() {
+        Restaurants[] inspectionScores = InspectionScores.getInspectionScores("American", "13", restaurant).toArray(new Restaurants[0]);
 
-        for (Restaurants r:
-                test) {
-            assertEquals("Asian", r.cuisine_type);
+
+        for (Restaurants r :
+                inspectionScores) {
             assertEquals("Manhattan", r.neighborhood);
+            assertEquals("American", r.cuisine_type);
         }
     }
 }

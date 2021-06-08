@@ -4,7 +4,7 @@ public class Restaurants {
 
     public int id;
     public String name;
-    public int DOHMH_inspection_score;
+    public String DOHMH_inspection_score;
     public String neighborhood;
     public String photograph;
     public String address;
@@ -13,6 +13,7 @@ public class Restaurants {
     public OperatingHours operating_hours;
     public Reviews reviews;
     public com.Reviews[] Reviews;
+    public String temp;
 
     // main constructor class
 
@@ -20,11 +21,13 @@ public class Restaurants {
         return this.id+ " | " + this.name+ " | " + this.DOHMH_inspection_score+ " | " + this.neighborhood+ " | " + this.photograph+ " | " + this.address+ " | " + this.latlng+ " | " + this.cuisine_type+ " | " + this.operating_hours+ " | " + this.reviews;
     }
 
-    public Restaurants(int InSpecScore) {
+    public Restaurants(String InSpecScore, String Neighboorhood) {
+
        this.DOHMH_inspection_score = InSpecScore;
+       this.neighborhood = Neighboorhood;
     }
 
-    public Restaurants(String nbhood, String cuisine) {
+    public void Restaurants(String nbhood, String cuisine) {
         this.neighborhood = nbhood;
         this.cuisine_type = cuisine;
     }

@@ -1,4 +1,7 @@
-package com;
+package com.Requirements;
+
+import com.AllRestaurants;
+import com.Restaurants;
 
 import java.text.DateFormat;
 import java.text.ParseException;
