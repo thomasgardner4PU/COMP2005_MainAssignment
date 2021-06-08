@@ -20,6 +20,10 @@ public class Restaurants {
         return this.id+ " | " + this.name+ " | " + this.DOHMH_inspection_score+ " | " + this.neighborhood+ " | " + this.photograph+ " | " + this.address+ " | " + this.latlng+ " | " + this.cuisine_type+ " | " + this.operating_hours+ " | " + this.reviews;
     }
 
+    public Restaurants(int InSpecScore) {
+       this.DOHMH_inspection_score = InSpecScore;
+    }
+
     public Restaurants(String nbhood, String cuisine) {
         this.neighborhood = nbhood;
         this.cuisine_type = cuisine;

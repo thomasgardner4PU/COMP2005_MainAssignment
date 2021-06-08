@@ -3,6 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Requirement2Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Requirement3Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Requirement4Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/DayHourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/DayHourTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/com/ReviewRatingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/ReviewRatingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/InspectionScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/InspectionScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ReviewRatings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ReviewRatings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +135,7 @@
       <module name="COMP2005_MainAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,8 +173,8 @@
     </configuration>
     <configuration name="CuisineneighbourhoodFunctionalTest.testCuisine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COMP2005_MainAssignment" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CuisineneighbourhoodFunctionalTest" />
+      <option name="PACKAGE_NAME" value="FunctionalTests" />
+      <option name="MAIN_CLASS_NAME" value="FunctionalTests.CuisineneighbourhoodFunctionalTest" />
       <option name="METHOD_NAME" value="testCuisine" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -174,12 +185,12 @@
       <module name="COMP2005_MainAssignment" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.*" />
+          <option name="PATTERN" value="UnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com" />
-      <option name="MAIN_CLASS_NAME" value="com.CuisineneighbourhoodUnitTest" />
+      <option name="PACKAGE_NAME" value="UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.CuisineneighbourhoodUnitTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,7 +227,7 @@
       <workItem from="1623050298673" duration="3510000" />
       <workItem from="1623053857647" duration="3248000" />
       <workItem from="1623066071850" duration="4688000" />
-      <workItem from="1623070824714" duration="2606000" />
+      <workItem from="1623070824714" duration="9512000" />
     </task>
     <servers />
   </component>
@@ -239,7 +250,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/com/CuisineneighbourhoodUnitTest.java</url>
+          <url>file://$PROJECT_DIR$/Tests/UnitTests/CuisineneighbourhoodUnitTest.java</url>
           <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

@@ -1,3 +1,5 @@
+package FunctionalTests;
+
 import com.AllRestaurants;
 import com.Cuisineneighbourhood;
 import com.Restaurants;

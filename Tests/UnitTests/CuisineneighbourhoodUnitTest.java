@@ -1,5 +1,8 @@
-package com;
+package UnitTests;
 
+import com.AllRestaurants;
+import com.Cuisineneighbourhood;
+import com.Restaurants;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

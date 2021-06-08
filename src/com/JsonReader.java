@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 
@@ -21,8 +22,7 @@ public class JsonReader {
 
             AllRestaurants restaurant = mapper.readValue(new URL("http://intelligent-social-robots-ws.com/restaurant-data.json"), AllRestaurants.class);
 
-//                             ArrayList<Restaurants> test4 = InspectionScores.getInspectionScores(restaurant);
-//                                String fourthsetofresults = "Results";
+
 
             System.out.println("Enter Cuisine: ");
         Scanner scanner = new Scanner(System.in);
@@ -78,6 +78,22 @@ public class JsonReader {
                 System.out.println(r.reviews.rating);
             }
 
+            ///////////////////////////////
+
+            System.out.println("Enter Neighborhood: ");
+
+            Scanner scanner4 = new Scanner(System.in);
+            String inputNbhood = scanner.nextLine();
+
+            ArrayList<Restaurants> test4 = InspectionScores.getInspectionScores(inputNbhood, new AllRestaurants());
+            String fourthsetofresults = "Results";
+
+            ArrayList<Restaurants> inspectionresults = InspectionScores.getInspectionScores(inputNbhood, new AllRestaurants());
+
+            for (Restaurants r:
+                    test) {
+                System.out.println(r.DOHMH_inspection_score);
+            }
 
         } catch (Exception e) {
             e.printStackTrace();

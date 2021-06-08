@@ -1,5 +1,7 @@
-package com;
+package UnitTests;
 
+import com.OperatingHours;
+import com.Restaurants;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
