@@ -30,13 +30,25 @@ public class CuisineneighbourhoodFunctionalTest {
 
 
     @Test
-    @DisplayName("Simple Test for restaurant of Type Cuisine and neighborhood")
+    @DisplayName("Checking if the supplied cuisine and neigborhood matches")
     public void testCuisineNeighborhood() {
-        Restaurants[] test = Cuisineneighbourhood.Filter("Asian", "Manhattan", restaurant);
+        Restaurants[] correctCuisine = Cuisineneighbourhood.Filter("Asian", "Manhattan", restaurant);
 
         for (Restaurants r:
-                test) {
+                correctCuisine) {
             assertEquals("Asian", r.cuisine_type);
+            assertEquals("Manhattan", r.neighborhood);
+        }
+    }
+
+    @Test
+    @DisplayName("To verify if the supplied cuisine is wrong")
+    public void testWrongCuisine() {
+        Restaurants[] wrongCuisine = Cuisineneighbourhood.Filter("Americen", "Manhattan", restaurant);
+
+        for (Restaurants r:
+        wrongCuisine) {
+            assertEquals("American", r.cuisine_type);
             assertEquals("Manhattan", r.neighborhood);
         }
     }

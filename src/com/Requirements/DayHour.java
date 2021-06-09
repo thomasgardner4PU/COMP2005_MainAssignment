@@ -64,8 +64,6 @@ public class DayHour {
 
         Date date2 = date.parse(inputTime);
 
-        // check comma first
-
         if (timesofday.matches("Closed")) {
             return false;
         }

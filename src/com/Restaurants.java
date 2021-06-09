@@ -28,10 +28,10 @@ public class Restaurants {
     }
 
     // Restaurants constructor for CuisineNeighborhood Unit tests and integration testing
-    public void Restaurants(String nbhood, String cuisine) {
-        this.neighborhood = nbhood;
-        this.cuisine_type = cuisine;
-    }
+//    public Restaurants(String nbhood, String cuisine) {
+//        this.neighborhood = nbhood;
+//        this.cuisine_type = cuisine;
+//    }
 
     // Restaurants constructor for DayHour Unit tests and integration testing
     public Restaurants(OperatingHours day) {

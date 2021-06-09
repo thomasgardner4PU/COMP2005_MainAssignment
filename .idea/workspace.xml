@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/AllRestaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AllRestaurants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/IntergrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +110,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16471839" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -121,7 +123,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JsonReader">
+  <component name="RunManager" selected="JUnit.ReviewRatingsUnitTest">
     <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JsonReader" />
       <module name="COMP2005_MainAssignment" />
@@ -131,13 +133,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonReaderMock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JsonReaderMock" />
-      <module name="COMP2005_MainAssignment" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,16 +158,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuisineneighbourhoodFunctionalTest.testCuisine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="COMP2005_MainAssignment" />
-      <option name="PACKAGE_NAME" value="FunctionalTests" />
-      <option name="MAIN_CLASS_NAME" value="FunctionalTests.CuisineneighbourhoodFunctionalTest" />
-      <option name="METHOD_NAME" value="testCuisine" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CuisineneighbourhoodUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COMP2005_MainAssignment" />
       <extension name="coverage">
@@ -188,13 +173,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InspectionScoresUnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2005_MainAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.InspectionScoresUnitTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReviewRatingsUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COMP2005_MainAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UnitTests" />
+      <option name="MAIN_CLASS_NAME" value="UnitTests.ReviewRatingsUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReviewRatingsUnitTest" />
+        <item itemvalue="JUnit.InspectionScoresUnitTests" />
+        <item itemvalue="JUnit.CuisineneighbourhoodUnitTest" />
         <item itemvalue="Application.JsonReader" />
         <item itemvalue="JUnit.All in COMP2005_MainAssignment" />
-        <item itemvalue="JUnit.CuisineneighbourhoodUnitTest" />
-        <item itemvalue="JUnit.CuisineneighbourhoodFunctionalTest.testCuisine" />
-        <item itemvalue="Application.JsonReaderMock" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +236,7 @@
       <workItem from="1623066071850" duration="4688000" />
       <workItem from="1623070824714" duration="11103000" />
       <workItem from="1623158720167" duration="19410000" />
-      <workItem from="1623184199896" duration="7527000" />
+      <workItem from="1623184199896" duration="14253000" />
     </task>
     <servers />
   </component>
@@ -239,6 +254,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP2005_MainAssignment$All_in_COMP2005_MainAssignment.ic" NAME="All in COMP2005_MainAssignment Coverage Results" MODIFIED="1623070727649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
