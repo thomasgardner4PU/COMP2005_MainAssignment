@@ -2,6 +2,7 @@ package com;
 
 public class Restaurants {
 
+    // Objects listed below to match the json data provided in spec
     public int id;
     public String name;
     public String DOHMH_inspection_score;
@@ -13,29 +14,31 @@ public class Restaurants {
     public OperatingHours operating_hours;
     public Reviews reviews;
     public com.Reviews[] Reviews;
-    public String temp;
 
     // main constructor class
-
    public String toString() {
         return this.id+ " | " + this.name+ " | " + this.DOHMH_inspection_score+ " | " + this.neighborhood+ " | " + this.photograph+ " | " + this.address+ " | " + this.latlng+ " | " + this.cuisine_type+ " | " + this.operating_hours+ " | " + this.reviews;
     }
 
+    // Restaurants constructor for inspectionScore Unit tests and integration testing
     public Restaurants(String InSpecScore, String Neighboorhood) {
 
        this.DOHMH_inspection_score = InSpecScore;
        this.neighborhood = Neighboorhood;
     }
 
+    // Restaurants constructor for CuisineNeighborhood Unit tests and integration testing
     public void Restaurants(String nbhood, String cuisine) {
         this.neighborhood = nbhood;
         this.cuisine_type = cuisine;
     }
 
+    // Restaurants constructor for DayHour Unit tests and integration testing
     public Restaurants(OperatingHours day) {
        this.operating_hours = day;
     }
 
+    // Restaurants constructor for ReviewRating Unit tests and integration testing
     public Restaurants(Reviews num) {
        this.reviews = num;
     }
