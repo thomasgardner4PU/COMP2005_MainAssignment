@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/IntergrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Requirements/DayHour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Restaurants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Restaurants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.16471839" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -236,7 +231,7 @@
       <workItem from="1623066071850" duration="4688000" />
       <workItem from="1623070824714" duration="11103000" />
       <workItem from="1623158720167" duration="19410000" />
-      <workItem from="1623184199896" duration="14253000" />
+      <workItem from="1623184199896" duration="20777000" />
     </task>
     <servers />
   </component>
@@ -254,17 +249,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP2005_MainAssignment$All_in_COMP2005_MainAssignment.ic" NAME="All in COMP2005_MainAssignment Coverage Results" MODIFIED="1623070727649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
