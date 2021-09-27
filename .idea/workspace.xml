@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4ffdcd75-213d-4eb7-89eb-b4e77c1f07b3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/FunctionalTests/CuisineneighbourhoodFunctionalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/UnitTests/InspectionScoresUnitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/FunctionalTests/CuisineneighbourhoodFunctionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/FunctionalTests/CuisineneighbourhoodFunctionalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/UnitTests/InspectionScoresUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/COMP2005_MainAssignment/UnitTests/InspectionScoresUnitTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +122,7 @@
       <recent name="com" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReviewRatingsUnitTest">
+  <component name="RunManager" selected="JUnit.InspectionScoresUnitTests">
     <configuration name="JsonReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.JsonReader" />
       <module name="COMP2005_MainAssignment" />
@@ -128,19 +132,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,8 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReviewRatingsUnitTest" />
         <item itemvalue="JUnit.InspectionScoresUnitTests" />
+        <item itemvalue="JUnit.ReviewRatingsUnitTest" />
         <item itemvalue="JUnit.CuisineneighbourhoodUnitTest" />
         <item itemvalue="Application.JsonReader" />
         <item itemvalue="JUnit.All in COMP2005_MainAssignment" />
@@ -231,7 +222,11 @@
       <workItem from="1623066071850" duration="4688000" />
       <workItem from="1623070824714" duration="11103000" />
       <workItem from="1623158720167" duration="19410000" />
-      <workItem from="1623184199896" duration="20777000" />
+      <workItem from="1623184199896" duration="25284000" />
+      <workItem from="1623286204664" duration="244000" />
+      <workItem from="1623287858730" duration="1735000" />
+      <workItem from="1624363475907" duration="191000" />
+      <workItem from="1624363696490" duration="101000" />
     </task>
     <servers />
   </component>

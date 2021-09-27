@@ -30,7 +30,7 @@ public class CuisineneighbourhoodFunctionalTest {
 
 
     @Test
-    @DisplayName("Checking if the supplied cuisine and neigborhood matches")
+    @DisplayName("Checking if the supplied cuisine and neigborhood matches the correct cuisine")
     public void testCuisineNeighborhood() {
         Restaurants[] correctCuisine = Cuisineneighbourhood.Filter("Asian", "Manhattan", restaurant);
 
